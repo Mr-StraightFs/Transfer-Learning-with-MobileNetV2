@@ -86,5 +86,6 @@ happy_model.summary()
 # Train and Evaluate the Model
 happy_model.fit(X_train, Y_train, epochs=8, batch_size=16)
 
-
+# Evaluate the 'happy Model'
+happy_model.evaluate(X_test, Y_test)
 
